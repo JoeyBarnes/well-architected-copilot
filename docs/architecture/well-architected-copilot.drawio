@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" modified="2023-08-24T20:15:50.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="Niw49uoJQUsI2kmtuKTK" version="21.6.9" type="device">
+  <diagram name="Page-1" id="-6El-rx23CjQ8ttJNd6v">
+    <mxGraphModel dx="1417" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="gcKrpCnsdTGYeye2cyEg-5" target="gcKrpCnsdTGYeye2cyEg-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-5" value="Documentation" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="120" y="110" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-2" value="Well-Architected Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="gcKrpCnsdTGYeye2cyEg-5" vertex="1">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-3" value="Cloud Adoption Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="gcKrpCnsdTGYeye2cyEg-5" vertex="1">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-4" value="Azure Architecture Center" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="gcKrpCnsdTGYeye2cyEg-5" vertex="1">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="gcKrpCnsdTGYeye2cyEg-7" target="gcKrpCnsdTGYeye2cyEg-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-7" value="Recommendations" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="120" y="400" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-8" value="Azure Advisor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="gcKrpCnsdTGYeye2cyEg-7" vertex="1">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-9" value="Assessments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="gcKrpCnsdTGYeye2cyEg-7" vertex="1">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-10" value="Azure Proactive Resiliency Library" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="gcKrpCnsdTGYeye2cyEg-7" vertex="1">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="gcKrpCnsdTGYeye2cyEg-11" target="gcKrpCnsdTGYeye2cyEg-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-11" value="Workload Insights" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="120" y="690" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-13" value="Azure Monitor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="gcKrpCnsdTGYeye2cyEg-11" vertex="1">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-14" value="Log Analtyics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="gcKrpCnsdTGYeye2cyEg-11" vertex="1">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-15" value="Azure Resource Graph" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="gcKrpCnsdTGYeye2cyEg-11" vertex="1">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="gcKrpCnsdTGYeye2cyEg-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-16" value="AI Framework" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="370" y="400" width="180" height="260" as="geometry">
+            <mxRectangle x="370" y="400" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-20" value="Generative AI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="gcKrpCnsdTGYeye2cyEg-16" vertex="1">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-21" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="gcKrpCnsdTGYeye2cyEg-16" vertex="1">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-22" value="Prompt Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="gcKrpCnsdTGYeye2cyEg-16" vertex="1">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-28" value="Well-Architected Copilot" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="620" y="465" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gcKrpCnsdTGYeye2cyEg-31" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#9673a6;shadow=0;dashed=0;shape=mxgraph.ios7.icons.messages;fillColor=#e1d5e7;" parent="gcKrpCnsdTGYeye2cyEg-28" vertex="1">
+          <mxGeometry x="35" y="40" width="90" height="75.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
